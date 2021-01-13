@@ -1,0 +1,294 @@
+/* style from first page */
+
+/* section menu-container..... */
+
+.header-content{
+    
+  grid-template-columns: 1fr;
+  
+}
+
+.show{
+  display: block !important;
+}
+.hide{
+  display: none;
+}
+
+.menu-container{
+  background-color: var(--mainWhite)!important;
+  margin-top: 60px;
+  position: fixed;
+  width: 320px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  
+  z-index: 1;
+  transition:all .3s linear;
+  transform: translateX(-400px);
+  overflow: scroll;
+  padding: 0 0 2rem 0;
+
+  
+}
+.show-card{
+  transform: translateX(0);
+}
+
+.close-btn-menu i{
+  display: block;
+}
+.nav-menu i{
+  display: block;
+}
+.menu-item ul li:hover{
+  background-color:var(--listHover)!important;
+  border-radius: 5px;
+}
+
+
+.menu-item ul li:hover .sub-menu{
+  display: none;
+
+}
+.sub-menu ul li:hover .sub-menu-1{
+  display: none;
+
+}
+.menu-item ul li i{
+  transition: .5s;
+  transform: rotate(90deg);
+
+}
+.active-icon{
+  transform: rotate(-90deg)!important ;
+}
+.menu-item ul  li{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px 1rem 0 1rem;
+  
+}
+.sub-menu-1 ul  li{
+  padding: 10px 1rem;
+  
+}
+.menu-item ul  li i{
+  position: relative;
+  top: -1rem;
+  right: -14rem;
+  
+}
+
+
+
+.sub-menu{
+  position: relative;
+  width: 320px;
+  height: auto;
+  top: 0;
+  left: -1rem;
+  background-color: var(--mainWhite);
+  display:none;
+  padding: 1rem ;
+  background-color: white;
+  
+  
+}
+.sub-menu-1{
+  background-color:white !important;
+  position: relative;
+  width: 320px;
+  height: auto;
+  top: 0;
+  left: -1rem;
+  display: none;
+  padding: 1rem ;
+ 
+}
+
+
+/* from cart.css page
+.img img{
+  width: 50px;
+  height: 30px;
+} */
+
+/*  bill.css */
+.content{
+  width: 100%;
+  min-height: 100vh;
+  padding: .5rem 0;
+  margin: 0 auto;
+  color: var(--textColor);
+}
+.bill-order{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  justify-content: center;
+  grid-column-gap: 1rem;
+
+}
+.title{
+  width: 100%;
+  font-size: 1.5em;
+  padding:1rem ;
+  position: relative;
+  
+  
+}
+.menu-item .title-menu{
+  
+  font-size: 1.5rem;
+  color: var(--textColor);
+}
+.middle{
+  
+  position: relative;
+}
+.middle::after{
+  content: '';
+  position: absolute;
+  top: 20px;
+  height: 400px;
+  border-left: 1px solid var(--borderColor);
+}
+.title p::after{
+  position: absolute;
+  content: '';
+  top: 60px;
+  left: 16px;
+  display: block;
+  width: 200px;
+  border-bottom: 1px solid var(--borderColor);
+}
+.total p::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 250px;
+  
+  border-top: 1px solid var(--borderColor) ;
+
+}
+@media screen and (max-width: 1000px){
+  .bill-order{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+    justify-content: center;
+    grid-column-gap: 1rem;
+  
+  }
+  .middle{
+  display: none;
+  }
+}
+
+/* form style ..............*/
+
+
+form #submit{
+  background-color: var(--primaryColor);
+  color: var(--mainWhite);
+  font-weight: bold;
+  border-style: none;
+  width: 150px;
+  padding: 8px 0;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+form #submit:hover{
+  background-color: var(--hover);
+}
+form div p{
+  color: crimson;
+  padding: 5px 0 0 0;
+  display: none;
+  
+}
+.success{
+  border: 1px solid green;
+}
+.error{
+  border: 1px solid crimson;
+}
+.display{
+  display: block;
+}
+.display-none{
+  display: none;
+}
+
+
+/* display item summery ........... */
+.item-display{
+  padding: 1rem;
+  margin: 0 !important;
+}
+.header-bill{
+  display: grid;
+  grid-template-columns: 1fr auto auto auto auto;
+  border-bottom: 1px solid var(--borderColor);
+  color: var(--textColor);
+  background-color: white;
+}
+.single-item .img-dis,
+.single-item .item-quantity,
+.single-item .item-size,
+.single-item .item-color,
+.single-item .item-cost{
+padding: 0 .5rem;
+}
+
+
+.header-bill h4{
+padding: 5px 5px;
+}
+/* .dis i{
+  visibility: hidden;
+} */
+
+/* alert........... */
+.add-alert{
+  position: fixed;
+  top: 45px;
+  left: 130px;
+  width: 400px;
+  text-align: center;
+  background-color: rgba(231, 76, 60,.7);
+  border-radius: 5px;
+  
+  z-index: 1;
+  display: none;
+ 
+}
+.active{
+  display: block;
+}
+.add-alert p{
+  
+  width: 400px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--mainWhite);
+ 
+  
+  
+  
+}

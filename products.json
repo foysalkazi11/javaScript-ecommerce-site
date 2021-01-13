@@ -1,0 +1,551 @@
+
+  [
+    {
+      "id": 1 ,
+      "amount":1,
+      "title": "artem-beliaikin",
+      "price": 2000,
+      "image": "./img/trending/pexels-artem-beliaikin-896619.jpg",
+      "catagoryTemp":"trending",
+      "catagoryOrg":"",
+      "subImage":{
+        "img1":"./img/trending/pexels-artem-beliaikin-896619.jpg",
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 2 ,
+      "amount":1,
+      "title": "artem-beliaikin",
+      "catagoryTemp":"trending",
+      "catagoryOrg":"",
+      "price": 1500,
+      "image": "./img/trending/pexels-artem-beliaikin-1078973.jpg",
+      "subImage":{
+        "img1":"./img/trending/pexels-artem-beliaikin-1078973.jpg",
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 3 ,
+      "amount":1,
+      "title": "david-bartus",
+      "catagoryTemp":"trending",
+      "catagoryOrg":"",
+      "price": 1500,
+      "image": "./img/trending/pexels-david-bartus-297933.jpg",
+      "subImage":{
+        "img1":"./img/trending/pexels-david-bartus-297933.jpg",
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    
+    {
+      "id": 4 ,
+      "amount":1,
+      "title": "dom-j",
+      "catagoryTemp":"trending",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/trending/pexels-dom-j-45982.jpg",
+      "subImage":{
+        "img1":"./img/trending/pexels-dom-j-45982.jpg",
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    
+    {
+      "id": 5 ,
+      "amount":1,
+      "title": "lukas",
+      "catagoryTemp":"trending",
+      "catagoryOrg":"",
+      "price": 1500,
+      "image": "./img/trending/pexels-lukas-292999.jpg",
+      "subImage":{
+        "img1":"./img/trending/pexels-lukas-292999.jpg",
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 6 ,
+      "amount":1,
+      "title": "lumn",
+      "catagoryTemp":"trending",
+      "catagoryOrg":"",
+      "price": 4000,
+      "image": "./img/trending/pexels-lumn-167703.jpg",
+      "subImage":{
+        "img1":"./img/trending/pexels-lumn-167703.jpg",
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 7 ,
+      "amount":1,
+      "title": "moose",
+      "catagoryTemp":"trending",
+      "catagoryOrg":"",
+      "price": 500,
+      "image": "./img/trending/pexels-moose-photos-1038000.jpg",
+      "subImage":{
+        "img1":"./img/trending/pexels-moose-photos-1038000.jpg",
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 8 ,
+      "amount":1,
+      "title": "terje-sollie",
+      "catagoryTemp":"trending",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/trending/pexels-terje-sollie-298863.jpg" ,
+      "subImage":{
+        "img1":"./img/analog-watch-blur-classic-close-up-236915.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 9 ,
+      "amount":1,
+      "title": "artem-beliaikin",
+      "catagoryTemp":"recommend",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/pexels-artem-beliaikin-1078958.jpg" ,
+      "subImage":{
+        "img1":"./img/pexels-artem-beliaikin-1078958.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 10 ,
+      "amount":1,
+      "title": "mihai-stefan",
+      "catagoryTemp":"recommend",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/pexels-mihai-stefan-photography-1384219.jpg" ,
+      "subImage":{
+        "img1":"./img/pexels-mihai-stefan-photography-1384219.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 11 ,
+      "amount":1,
+      "title": "mostafa-sannad",
+      "catagoryTemp":"recommend",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/pexels-mostafa-sannad-878358.jpg" ,
+      "subImage":{
+        "img1":"./img/pexels-mostafa-sannad-878358.jpg"  ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 12 ,
+      "amount":1,
+      "title": "photomix-company",
+      "catagoryTemp":"recommend",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/pexels-photomix-company-291759.jpg" ,
+      "subImage":{
+        "img1":"./img/pexels-photomix-company-291759.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 13 ,
+      "amount":1,
+      "title": "ryan-holloway",
+      "catagoryTemp":"recommend",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/pexels-ryan-holloway-242829.jpg" ,
+      "subImage":{
+        "img1":"./img/pexels-ryan-holloway-242829.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 14 ,
+      "amount":1,
+      "title": "lazy-artist-gallery",
+      "catagoryTemp":"recommend",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/pexels-the-lazy-artist-gallery-1342609.jpg" ,
+      "subImage":{
+        "img1":"./img/pexels-the-lazy-artist-gallery-1342609.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 15 ,
+      "amount":1,
+      "title": "tuấn-kiệt-jr",
+      "catagoryTemp":"recommend",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/pexels-tuấn-kiệt-jr-1308885.jpg" ,
+      "subImage":{
+        "img1":"./img/pexels-tuấn-kiệt-jr-1308885.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 16 ,
+      "amount":1,
+      "title": "wellington-cunha",
+      "catagoryTemp":"recommend",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/pexels-wellington-cunha-1886694.jpg" ,
+      "subImage":{
+        "img1":"./img/pexels-wellington-cunha-1886694.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 17 ,
+      "amount":1,
+      "title": "designecologist",
+      "catagoryTemp":"computer",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/computer/pexels-designecologist-1779487.jpg" ,
+      "subImage":{
+        "img1":"./img/computer/pexels-designecologist-1779487.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 18 ,
+      "amount":1,
+      "title": "elvis",
+      "catagoryTemp":"computer",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/computer/pexels-elvis-2528118.jpg" ,
+      "subImage":{
+        "img1":"./img/computer/pexels-elvis-2528118.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 19 ,
+      "amount":1,
+      "title": "josh-sorenson",
+      "catagoryTemp":"computer",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/computer/pexels-josh-sorenson-1714208.jpg" ,
+      "subImage":{
+        "img1":"./img/computer/pexels-josh-sorenson-1714208.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 20 ,
+      "amount":1,
+      "title": "mateusz-dach",
+      "catagoryTemp":"computer",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/computer/pexels-mateusz-dach-450035.jpg" ,
+      "subImage":{
+        "img1":"./img/computer/pexels-mateusz-dach-450035.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 21 ,
+      "amount":1,
+      "title": "picjumbocom",
+      "catagoryTemp":"computer",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/computer/pexels-picjumbocom-461077.jpg" ,
+      "subImage":{
+        "img1": "./img/computer/pexels-picjumbocom-461077.jpg"  ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 22 ,
+      "amount":1,
+      "title": "pixabay",
+      "catagoryTemp":"computer",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/computer/pexels-pixabay-459653.jpg" ,
+      "subImage":{
+        "img1":"./img/computer/pexels-pixabay-459653.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 23 ,
+      "amount":1,
+      "title": "serpstat",
+      "catagoryTemp":"computer",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/computer/pexels-serpstat-572056.jpg" ,
+      "subImage":{
+        "img1":"./img/computer/pexels-serpstat-572056.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 24 ,
+      "amount":1,
+      "title": "skitterphoto",
+      "catagoryTemp":"computer",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/computer/pexels-skitterphoto-705164.jpg" ,
+      "subImage":{
+        "img1":"./img/computer/pexels-skitterphoto-705164.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 25 ,
+      "amount":1,
+      "title": "andrea-piacquadio",
+      "catagoryTemp":"mobile",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/mobile/pexels-andrea-piacquadio-761963.jpg" ,
+      "subImage":{
+        "img1":"./img/mobile/pexels-andrea-piacquadio-761963.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 26 ,
+      "amount":1,
+      "title": "bongkarn-thanyakij",
+      "catagoryTemp":"mobile",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/mobile/pexels-bongkarn-thanyakij-3773418.jpg" ,
+      "subImage":{
+        "img1": "./img/mobile/pexels-bongkarn-thanyakij-3773418.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 27 ,
+      "amount":1,
+      "title": "elvis",
+      "catagoryTemp":"mobile",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/mobile/pexels-elvis-2528118.jpg" ,
+      "subImage":{
+        "img1":"./img/mobile/pexels-elvis-2528118.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 28 ,
+      "amount":1,
+      "title": "hiren-lad",
+      "catagoryTemp":"mobile",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/mobile/pexels-hiren-lad-3031670.jpg" ,
+      "subImage":{
+        "img1":"./img/mobile/pexels-hiren-lad-3031670.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 29 ,
+      "amount":1,
+      "title": "jess-bailey-designs",
+      "catagoryTemp":"mobile",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/mobile/pexels-jess-bailey-designs-788946.jpg" ,
+      "subImage":{
+        "img1":"./img/mobile/pexels-jess-bailey-designs-788946.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 30 ,
+      "amount":1,
+      "title": "ovan",
+      "catagoryTemp":"mobile",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/mobile/pexels-ovan-62689.jpg" ,
+      "subImage":{
+        "img1":"./img/mobile/pexels-ovan-62689.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 31 ,
+      "amount":1,
+      "title": "pixabay",
+      "catagoryTemp":"mobile",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/mobile/pexels-pixabay-275033.jpg" ,
+      "subImage":{
+        "img1":"./img/mobile/pexels-pixabay-275033.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    },
+    {
+      "id": 32 ,
+      "amount":1,
+      "title": "sound-on",
+      "catagoryTemp":"mobile",
+      "catagoryOrg":"",
+      "price": 2000,
+      "image": "./img/mobile/pexels-sound-on-3394650.jpg" ,
+      "subImage":{
+        "img1":"./img/mobile/pexels-sound-on-3394650.jpg" ,
+        "img2":"./img/img.2.jpg",
+        "img3":"./img/img.4.jpg",
+        "img4":"./img/accessory-bag-briefcase-buckle-1152077.jpg"
+      },
+      "details":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel unde ullam perspiciatis ipsa similique neque iste temporibus, qui enim."
+      
+    }
+  
+  ]
+
