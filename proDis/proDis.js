@@ -32,18 +32,19 @@ function getItem(){
   
   const product = JSON.parse(localStorage.getItem('products'))
   const singleItem = JSON.parse(localStorage.getItem('singleItem'))
-  singleItem.forEach(item => {
-    cartPro.push(item)
-    
-  });
+  if (singleItem) {
+    singleItem.forEach(item => {
+      cartPro.push(item)
+      
+    });
+  }
   
   const data = product.find( product =>{
-    
+      
     return product.id == id
     
   })
   displayPro(data)
-  
   
   
 }

@@ -30,24 +30,26 @@ const productDisplay = document.querySelectorAll('.product-display')
   
   function displayProduct(products){
     let link = '';
-    products.forEach(product => {
-      if(product.catagoryTemp === 'trending'){
-        link = document.getElementById('trending');
-        disPro(product,link)
-      }
-      if(product.catagoryTemp === 'recommend'){
-        link = document.getElementById('recommend');
-        disPro(product,link)
-      }
-      if(product.catagoryTemp === 'computer'){
-        link = document.getElementById('computer');
-        disPro(product,link)
-      }
-      if(product.catagoryTemp === 'mobile'){
-        link = document.getElementById('mobile');
-        disPro(product,link)
-      }
-    });
+    if (products) {
+      products.forEach(product => {
+        if(product.catagoryTemp === 'trending'){
+          link = document.getElementById('trending');
+          disPro(product,link)
+        }
+        if(product.catagoryTemp === 'recommend'){
+          link = document.getElementById('recommend');
+          disPro(product,link)
+        }
+        if(product.catagoryTemp === 'computer'){
+          link = document.getElementById('computer');
+          disPro(product,link)
+        }
+        if(product.catagoryTemp === 'mobile'){
+          link = document.getElementById('mobile');
+          disPro(product,link)
+        }
+      });
+    }
     
     
     
@@ -112,20 +114,21 @@ const productDisplay = document.querySelectorAll('.product-display')
 // get data cart data from localstaorage and show to ui...............
 
 function getCartItem(){
-  const data = JSON.parse(localStorage.getItem  ('singleItem'))
+  const data = JSON.parse(localStorage.getItem('singleItem'))
   showTotla(data);
   
 }
 
 function showTotla(item){
-    
-  let totalItem = 0
-  item.map(item=>{
+  if (item) {
+    let totalItem = 0
+  item.forEach(item=>{
     totalItem += 1
      
   })
   
   document.querySelector('.total-item p').textContent = totalItem;
+  }
 
 }
 
@@ -136,20 +139,20 @@ function showTotla(item){
   localStorage.setItem('products',JSON.stringify(products))
  }
 
- function singlePro (cart){
-  localStorage.setItem('singlePro',JSON.stringify(cart))
+ function singlePro (id){
+  localStorage.setItem('singlePro',JSON.stringify(id))
  }
- function getCartItem(){
-  const data = JSON.parse(localStorage.getItem  ('singleItem'))
-  showTotla(data);
+//  function getCartItem(){
+//   const data = JSON.parse(localStorage.getItem  ('singleItem'))
+//   showTotla(data);
   
-}
+// }
 
 
 
 // mobile menu nev bar.............
 const icon = document.querySelectorAll('.menu-item ul li i');
-console.log(icon);
+
 
 icon.forEach(icon =>{
 icon.addEventListener('click',e => {
@@ -165,11 +168,10 @@ icon.addEventListener('click',e => {
 
 // function fire after domcontentloaded................
 
-document.addEventListener('DOMContentLoaded',()=>{
+document.addEventListener('DOMContentLoaded',async()=>{
   
-  getProduct()
-  .then(products => {
-    
+  const products = await  getProduct()
+  if (products) {
     displayProduct(products);
     saveLocalStorage(products);
     getCartItem()
@@ -338,8 +340,9 @@ document.addEventListener('DOMContentLoaded',()=>{
       ]
     });
     
-    
-  })
+  }
+ 
+  
 
 });
 
